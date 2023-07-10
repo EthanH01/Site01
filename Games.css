@@ -1,0 +1,185 @@
+/*Header*/
+
+header {
+  background-color: #00000000;
+  margin:30px 0;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:rgb(255, 255, 255);
+}
+
+
+/*Body CSS*/
+
+body {
+    background-image: url(https://us.123rf.com/450wm/greenflame/greenflame1608/greenflame160800251/61458808-abstract-vector-square-pixel-mosaic-background-violet.jpg?ver=6);
+    color: rgb(255, 255, 255);
+    border-image-repeat: repeat;
+    image-orientation: from-image;
+    background-color: rgb(0, 0, 0);
+    border-width: 10px;
+    border-color: rgb(157, 59, 223);
+    border-radius: 10px;
+    border-style: ridge;
+}
+    
+
+/*Navigation Bar for Home Page*/
+
+.topnav {
+  padding: 1px 10px;
+  background: #171717;
+  color: #000000;
+  margin-right: right;
+  border-color:rgb(0, 0, 0);
+  border-width:20px;
+}
+
+/*Navigation Bar Interactive*/
+
+
+
+  .topnav a {
+    float: center;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 11px;
+    background-color:rgb(0, 0, 0);
+    border-style:groove;
+    font-family:'Times New Roman', Times, serif;
+  }
+  
+ 
+  .topnav a:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+  }
+  
+  
+  .topnav a.active {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+  }
+
+  /*Home Page Information (Add Animation)*/
+
+  .one {
+    color: rgb(255, 255, 255);
+    margin-top:auto;
+    background-color:#00000000;
+  }
+
+  .two {
+    color: rgb(255, 255, 255);
+    background-color:#00000000;
+  }
+
+  .three {
+    color: rgb(255, 255, 255);
+    background-color:#00000000;
+
+  }
+
+  .four {
+    color: rgb(255, 255, 255);
+    background-color:#00000000;
+  }
+
+  .five {
+    color: rgb(255, 255, 255);
+    background-color:#00000000;
+    
+  }
+ 
+ 
+ 
+   .homepage-items {
+    
+    background-color:#00000000;
+    border-color:white;
+    border-width:20px;
+    padding:0px;
+    scroll-margin:20px;
+    size:20px;
+    
+   }
+
+  
+
+
+
+/* Container holding the image and the text */
+
+.container {
+  position: relative;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+
+/* Centered text */
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+.centered {
+    font-size: 50px;
+    background-color: rgba(68, 0, 128, 0.647);
+    border-width: 20px;
+    border-image: initial;
+    border-style: ridge;
+    border-color: rgba(32, 212, 225, 0.314);
+}
+
+
+
+
+
+
+  
+    
+    .leftSide {
+        text-align: left;
+        color: rgb(255, 255, 255);
+        background-color: rgba(12, 10, 73, 0.792);
+        font-size: 30px;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 700;
+        padding: 50px;
+        border-width: 20px;
+    
+    }
+    
+    .rightSide {
+      text-align: right;
+      color: rgb(255, 255, 255);
+      background-color: rgba(4, 0, 10, 0.537);
+      font-size: 30px;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      font-weight: 700;
+      padding: 50px;
+      border-width: 5px;
+      border-color: initial;
+      border-image: initial;
+      border-style: ridge;
+    }
+    
+    
+  
+  
+
+
+    .bottom {
+      background-color:#000000;
+      border-width:20px;
+      border-color:20;
+      font-size:20px;
+      
+    }
